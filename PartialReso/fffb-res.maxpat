@@ -3,7 +3,7 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 0,
+			"minor" : 2,
 			"revision" : 0,
 			"architecture" : "x64",
 			"modernui" : 1
@@ -38,6 +38,7 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+<<<<<<< HEAD
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-9",
@@ -122,6 +123,15 @@
 					"patching_rect" : [ 15.0, 16.0, 24.0, 24.0 ],
 					"presentation_rect" : [ 41.0, 123.0, 24.0, 24.0 ],
 					"style" : ""
+=======
+					"id" : "obj-20",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 675.0, 224.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "nici eu"
+>>>>>>> origin/master
 				}
 
 			}
@@ -132,7 +142,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
+<<<<<<< HEAD
 					"patching_rect" : [ 253.5, 472.0, 154.0, 33.0 ],
+=======
+					"patching_rect" : [ 675.0, 172.0, 154.0, 20.0 ],
+>>>>>>> origin/master
 					"style" : "",
 					"text" : "Setati volumul boxelor cat mai jos pentru inceput."
 				}
@@ -145,7 +159,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 670.0, 73.0, 154.0, 74.0 ],
+					"patching_rect" : [ 670.0, 73.0, 154.0, 75.0 ],
 					"style" : "",
 					"text" : "frecventele, Q, gain-urile momentan intra manual in filterbank (fffb~)\n\ncum le facem generative?"
 				}
@@ -248,7 +262,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 362.0, 301.0, 150.0, 47.0 ],
+					"patching_rect" : [ 362.0, 301.0, 150.0, 48.0 ],
 					"style" : "",
 					"text" : "vezi https://www.youtube.com/watch?v=PNa7-d_ZLg8"
 				}
@@ -289,8 +303,8 @@
 					"orientation" : 1,
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 201.5, 405.0, 136.0, 48.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 50.0, 48.0 ],
+					"patching_rect" : [ 201.5, 405.0, 136.0, 49.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 50.0, 49.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -328,6 +342,7 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
+<<<<<<< HEAD
 									"originaltempo" : [ 120.0 ],
 									"formant" : [ 1.0 ],
 									"quality" : [ "basic" ],
@@ -344,6 +359,24 @@
 									"play" : [ 0 ],
 									"basictuning" : [ 440 ],
 									"originallengthms" : [ 0.0 ]
+=======
+									"timestretch" : [ 0 ],
+									"quality" : [ "basic" ],
+									"mode" : [ "basic" ],
+									"play" : [ 0 ],
+									"followglobaltempo" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
+									"pitchcorrection" : [ 0 ],
+									"formantcorrection" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"pitchshift" : [ 1.0 ],
+									"basictuning" : [ 440 ],
+									"originallengthms" : [ 0.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"formant" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
+									"pitchshiftcent" : [ 0 ]
+>>>>>>> origin/master
 								}
 
 							}
@@ -595,8 +628,14 @@
 			"obj-6" : [ "live.gain~", "live.gain~", 0 ]
 		}
 ,
-		"dependency_cache" : [  ],
-		"embedsnapshot" : 0
+		"dependency_cache" : [ 			{
+				"name" : "cello-f2.aif",
+				"bootpath" : "C74:/media/msp",
+				"type" : "AIFF",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
