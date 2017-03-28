@@ -3,9 +3,15 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
+<<<<<<< HEAD
 			"minor" : 2,
 			"revision" : 0,
 			"architecture" : "x64",
+=======
+			"minor" : 3,
+			"revision" : 2,
+			"architecture" : "x86",
+>>>>>>> parent of ccb6347... Added comment: "Nu stiu"
 			"modernui" : 1
 		}
 ,
@@ -38,6 +44,7 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 					"fontname" : "Arial",
@@ -161,6 +168,8 @@
 			}
 , 			{
 				"box" : 				{
+=======
+>>>>>>> parent of ccb6347... Added comment: "Nu stiu"
 					"id" : "obj-23",
 					"linecount" : 5,
 					"maxclass" : "comment",
@@ -231,6 +240,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 555.0, 198.0, 77.0, 22.0 ],
+					"presentation_rect" : [ 553.0, 194.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "0.7 0.8 0.9 1"
 				}
@@ -257,6 +267,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 431.0, 198.0, 74.0, 22.0 ],
+					"presentation_rect" : [ 431.0, 197.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "$1 $1 $1 $1"
 				}
@@ -311,7 +322,11 @@
 					"outlettype" : [ "signal", "signal", "", "float", "list" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 201.5, 405.0, 136.0, 49.0 ],
+<<<<<<< HEAD
 					"presentation_rect" : [ 0.0, 0.0, 50.0, 49.0 ],
+=======
+					"presentation_rect" : [ 0.0, 0.0, 50.0, 35.0 ],
+>>>>>>> parent of ccb6347... Added comment: "Nu stiu"
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.gain~",
@@ -351,6 +366,7 @@
 								"content_state" : 								{
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"originaltempo" : [ 120.0 ],
 									"formant" : [ 1.0 ],
 									"quality" : [ "basic" ],
@@ -386,14 +402,28 @@
 =======
 									"slurtime" : [ 0.0 ],
 									"pitchcorrection" : [ 0 ],
+=======
+									"basictuning" : [ 440 ],
+>>>>>>> parent of ccb6347... Added comment: "Nu stiu"
 									"quality" : [ "basic" ],
-									"formant" : [ 1.0 ],
-									"followglobaltempo" : [ 0 ],
 									"originallengthms" : [ 0.0 ],
-									"timestretch" : [ 0 ],
+									"originaltempo" : [ 120.0 ],
+									"speed" : [ 1.0 ],
+									"formant" : [ 1.0 ],
 									"mode" : [ "basic" ],
+<<<<<<< HEAD
 									"formantcorrection" : [ 0 ]
 >>>>>>> parent of 9371841... Oare acum sunt generative?
+=======
+									"formantcorrection" : [ 0 ],
+									"slurtime" : [ 0.0 ],
+									"timestretch" : [ 0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"followglobaltempo" : [ 0 ],
+									"play" : [ 0 ],
+									"pitchshift" : [ 1.0 ],
+									"pitchcorrection" : [ 0 ]
+>>>>>>> parent of ccb6347... Added comment: "Nu stiu"
 								}
 
 							}
