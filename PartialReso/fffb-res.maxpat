@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 157.0, 195.0, 995.0, 612.0 ],
+		"rect" : [ 98.0, 268.0, 995.0, 612.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,7 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+<<<<<<< HEAD
 <<<<<<< HEAD
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
@@ -137,18 +138,24 @@
 			}
 , 			{
 				"box" : 				{
+=======
+>>>>>>> parent of 9371841... Oare acum sunt generative?
 					"id" : "obj-2",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
+<<<<<<< HEAD
 <<<<<<< HEAD
 					"patching_rect" : [ 253.5, 472.0, 154.0, 33.0 ],
 =======
 					"patching_rect" : [ 675.0, 172.0, 154.0, 20.0 ],
 >>>>>>> origin/master
+=======
+					"patching_rect" : [ 675.0, 172.0, 154.0, 20.0 ],
+					"presentation_rect" : [ 675.0, 173.0, 0.0, 0.0 ],
+>>>>>>> parent of 9371841... Oare acum sunt generative?
 					"style" : "",
-					"text" : "Setati volumul boxelor cat mai jos pentru inceput."
+					"text" : "Nu stiiiu :)"
 				}
 
 			}
@@ -197,7 +204,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 431.0, 126.0, 86.0, 31.0 ],
+					"patching_rect" : [ 431.0, 128.0, 86.0, 31.0 ],
 					"size" : 101.0,
 					"style" : ""
 				}
@@ -343,21 +350,20 @@
 								"loop" : 1,
 								"content_state" : 								{
 <<<<<<< HEAD
+<<<<<<< HEAD
 									"originaltempo" : [ 120.0 ],
 									"formant" : [ 1.0 ],
 									"quality" : [ "basic" ],
+=======
+>>>>>>> parent of 9371841... Oare acum sunt generative?
 									"pitchshift" : [ 1.0 ],
-									"slurtime" : [ 0.0 ],
-									"timestretch" : [ 0 ],
-									"speed" : [ 1.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"followglobaltempo" : [ 0 ],
-									"mode" : [ "basic" ],
 									"pitchshiftcent" : [ 0 ],
-									"pitchcorrection" : [ 0 ],
-									"formantcorrection" : [ 0 ],
+									"speed" : [ 1.0 ],
+									"originaltempo" : [ 120.0 ],
+									"originallength" : [ 0.0, "ticks" ],
 									"play" : [ 0 ],
 									"basictuning" : [ 440 ],
+<<<<<<< HEAD
 									"originallengthms" : [ 0.0 ]
 =======
 									"timestretch" : [ 0 ],
@@ -377,6 +383,17 @@
 									"slurtime" : [ 0.0 ],
 									"pitchshiftcent" : [ 0 ]
 >>>>>>> origin/master
+=======
+									"slurtime" : [ 0.0 ],
+									"pitchcorrection" : [ 0 ],
+									"quality" : [ "basic" ],
+									"formant" : [ 1.0 ],
+									"followglobaltempo" : [ 0 ],
+									"originallengthms" : [ 0.0 ],
+									"timestretch" : [ 0 ],
+									"mode" : [ "basic" ],
+									"formantcorrection" : [ 0 ]
+>>>>>>> parent of 9371841... Oare acum sunt generative?
 								}
 
 							}
@@ -499,55 +516,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-18", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-20", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -593,33 +565,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-9", 0 ]
 				}
 
 			}
